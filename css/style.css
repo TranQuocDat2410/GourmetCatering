@@ -1,0 +1,91 @@
+.font-playfair{
+    font-family: 'Playfair Display', serif;
+}
+
+.font-times-new-roman{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bg-white{
+    background-color: #fff;
+}
+
+.font-size-15px {
+    font-size: 15px;
+}
+
+.content-navigation {
+    letter-spacing: 4px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.square {
+    border-radius: 0;
+}
+
+.square:hover {
+    
+    background-color: #ccc;
+}
+
+#navigation-bar {
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#navigation-bar a:hover,
+#navigation-bar li:hover .content-navigation{
+    background-color: #ccc;
+}
+
+#slider .carousel-item {
+    position: relative;
+}
+
+#slider .content-slider {
+    position: absolute;
+    bottom: 2%;
+    left: 5%;
+    letter-spacing: 5px;
+}
+
+#about img{
+    width: 100%;
+    opacity: 0.7;
+}
+
+#about span {
+    background-color: #f1f1f1;
+    padding: 0 8px;
+}
+
+#about h1,
+#menu h1,
+#contact h1 {
+    letter-spacing: 4px;
+}
+
+#menu .food-heading {
+    letter-spacing: 5px;
+}
+
+#menu .food-content {
+    opacity: 0.7;
+}
+
+#menu img {
+    width: 100%;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+#contact .local {
+    color: #607d8b;
+}
+
+#footer p {
+    opacity: 0.6;
+}
